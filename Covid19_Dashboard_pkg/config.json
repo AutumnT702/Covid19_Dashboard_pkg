@@ -1,0 +1,9 @@
+{
+    "log_level": "DEBUG",
+    "csv_filename": "covid.csv",
+    "log_filename": "sys.log",
+    "status_filename": "status.json",
+    "AreaName": "Exeter",
+    "AreaType": "ltla",
+    "API_key": ""
+}
