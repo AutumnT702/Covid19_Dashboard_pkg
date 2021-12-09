@@ -264,6 +264,9 @@ Logging is used to make note of when such corrections are required (typically WA
 the module `tests.py` holds the functions for testing the functionality of the other 3 modules (`covid_data_handler.py`, `covid_news_handling.py`, and `main.py`)<br>
 running the tests module from within the Covid19_Dashboard_pkg directory will see the name of each test, together with short descriptions, and ultimately the results written to the "results.txt" file also stored within the Covid19_Dashboard_pkg directory<br>
 
+to test individual functions, import and run the corresponding function within the Covid19_Dashboard_pkg directory<br>
+the corresponding test function of each other function will have the same name, preffixed by "test_"<br>
+
 ---
 ---
 
@@ -395,7 +398,7 @@ referenced in tests.py, line 3,<br>
 **a txt file that stores the results of tests performed on the 3 modules (as produced when running tests.py)**<br>
 
 named **results.txt** by default<br>
-referenced in tests.py, line 1,<br>
+referenced in tests.py, lines 1, 32, 107, 193, 294, 404, 459, 521, 579, 661, 744, 832, 915, 986, 1056, 1108, 1166, 1245,<br>
 `filename = "`**results.txt**`"`
 
 this file should remain stored within the Covid19_Dashboard_pkg directory<br>
