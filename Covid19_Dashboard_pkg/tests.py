@@ -457,6 +457,8 @@ def test_covid_API_request():
 def test_csv_writeup():
     if "filename" not in globals():
         filename = "results.txt"
+    if "tests_csv" not in globals():
+        tests_csv = "tests.csv"
     with open(filename, "a") as file:
         file.write("test_csv_writeup\n")
 
@@ -519,6 +521,8 @@ csv_writeup("invalid extension", parse_csv_data2(parse_csv_data("nation_2021-10-
 def test_csv_update():
     if "filename" not in globals():
         filename = "results.txt"
+    if "tests_csv" not in globals():
+        tests_csv = "tests.csv"
     with open(filename, "a") as file:
         file.write("test_csv_update\n")
 
@@ -577,6 +581,8 @@ def test_csv_update():
 def test_covid_update():
     if "filename" not in globals():
         filename = "results.txt"
+    if "tests_csv" not in globals():
+        tests_csv = "tests.csv"
     with open(filename, "a") as file:
         file.write("test_covid_update\n")
 
@@ -913,6 +919,8 @@ def test_update_news():
 def test_json_read():
     if "filename" not in globals():
         filename = "results.txt"
+    if "test_config_json" not in globals():
+        test_config_json = "test_config.json"
     with open(filename, "a") as file:
         file.write("test_json_read\n")
 
@@ -984,6 +992,8 @@ def test_json_read():
 def test_json_write():
     if "filename" not in globals():
         filename = "results.txt"
+    if "test_config_json" not in globals():
+        test_config_json = "test_config.json"
     with open(filename, "a") as file:
         file.write("test_json_write\n")
 
