@@ -382,7 +382,7 @@ named **sys.log** by default in the config file<br>
 **a dynamic csv file, used by tests.py**<br>
 
 named **tests.csv** by default<br>
-referenced in tests.py, line 2,<br>
+referenced in tests.py, lines 2, 461, 525, 585,<br>
 `tests_csv = "`**tests.csv**`"`<br>
 
 ### test_config.json<br>
@@ -390,7 +390,7 @@ referenced in tests.py, line 2,<br>
 **a dynamic json file, used by tests.py**<br>
 
 named **test_config.json** by default<br>
-referenced in tests.py, line 3,<br>
+referenced in tests.py, lines 3, 923, 996,<br>
 `test_config_json = "`**test_config.json**`"`<br>
 
 ### results file<br>
@@ -398,7 +398,7 @@ referenced in tests.py, line 3,<br>
 **a txt file that stores the results of tests performed on the 3 modules (as produced when running tests.py)**<br>
 
 named **results.txt** by default<br>
-referenced in tests.py, lines 1, 32, 107, 193, 294, 404, 459, 521, 579, 661, 744, 832, 915, 986, 1056, 1108, 1166, 1245,<br>
+referenced in tests.py, lines 1, 32, 107, 193, 294, 404, 459, 523, 583, 667, 750, 838, 921, 994, 1066, 1118, 1176, 1255,<br>
 `filename = "`**results.txt**`"`
 
 this file should remain stored within the Covid19_Dashboard_pkg directory<br>
